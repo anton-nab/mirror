@@ -1,0 +1,137 @@
+GESTION DE PROJET: 
+
+- Pourquoi faut-il découper un projet en petites tâches ? 
+	STRUCTURER ORGANISER
+	REPARTITION DES TACHES/POUR ALLER PLUS VITE
+-Quel est selon vous la problématique majeure du travail en équipe ? 
+	ORGANISATION/ COMMUNICATION
+- Nommez plusieurs outils connus pour le travail en équipe. 
+	TRELLO/KANBAN/TEAMS/ METHODE AGILE
+- Combien de type de réunions différentes connaissez-vous ? 
+	SPRINT(tache)/ REUNION PROJET/ EQUIPE
+	PRODUCT REVIEW(technique), 
+	DAILY REVIEW 
+- Planifiez une semaine type dans une équipe de développement.
+	DAILY REVIEW 
+	SPRINT par semaine (situation des différents groupes) 
+	 COMM INTERNE EXTERNE par semaine
+	1 BACKUP/ COMPTE RENDU 
+-Qu'est-ce qu'un diagramme GANTT? 
+	GESTION DE PROJET/ SUIVI DE TOUTE LES TACHES EN MEME TPS 
+-en quoi est-il essentiel ? 
+	POUR ATTEINDRE UNE DEADLINE 
+	VOIR LES ACTIONS QUI SE SUPERPOSENT/ AMELIORATION 
+-Quelles sont ses limites ? 
+	UNE MAUVAISE VISION DE LORGANISATION DE LEQUIPE SUR LES TACHES 
+- Proposer une solution pour gérer le suivi et l'attribution des tâches de manières Agiles ? 
+	METHODE AGILE=REAFFECTATION REMISE A PLAT TOUTE LES SEMAINE
+- Qu'est-ce qu'un tableau KANBAN ? 
+	UN TABLEAU AVEC DES COLONNES POUR VOIR LAFFECTATION DES TACHES ET LES TACHES RESTANTES ET TERMINEES 
+-Donnez au moins un outil logiciel connu qui l'utilise 
+	TRELLO/ TABLEAU BLANC AVEC POST IT 
+-Donnez une définition de la méthode Agile 
+	REAFECTATION CONTINUE DES RESSOURCES 
+-Que dois faire un scrum-master? 
+	SUIVI DES TACHES 
+	SUVI DE LEQUIPE 
+	SUIVI DU TEMPS 
+-Qui est le Product Owner ? 
+	SUIVI DU PRODUIT
+	NEGOCIATION DES TACHES AVEC SCRUM MASTER 
+	DECISION TECHNIQUES
+	CHALLENGE UN CLIENT 
+ - Qu'est ce qu'une user Story ? 
+	CE QUE LUTILISATEUR VA VOULOIR COMME FONCTIONNALITES
+- Definissez le backlog ? 
+	LISTE DES TACHES SUITE AU DERNIER SPRINT 
+-Pourquoi faire du reporting ? 
+	SAVOIR OU ON EN EST/ LEQUIPE SACHE OU ON EN EST 
+	NE RIEN OUBLIER 
+-Quelles informations doit-on obligatoirement remonter ? 
+	PROBLEME/ BLOCAGE 
+	AVANCEE/ SUCCES
+	RAPPEL SOUR OU TROUVER NOTRE TRAVAIL- PREVENIR ABSENCE
+-Quelles sont les bonnes pratiques à mettre en place pour suivre son travail ? 
+	TOUT DOCUMENTER/ PRISE DE DECISION/ CHOIX TOUT BACKUPER/ COMMENTER/ PREVOIR SON ABSENCE 
+-A quoi sert le langage LATEX? Quels sont ses avantages ? 
+	A ECRIRE DES DOCUMENTS TECHNIQUES OU SCIENTIFIQUES SOUS FORME DE CODE
+
+
+DEVELOPPEMENT
+
+- Qu'est-ce qu'un état de l'art et à quoi sert il ? 
+	SERT A VOIR CE QUI A DEJA ETE FAIT AVANT
+	
+- Quelles sont les bonnes pratiques de développement ? 
+	COMMENTAIRES
+	GITHUB/DRIVE 
+	GITHUB/VISIONNING
+	ORGANISER SON CODE/DECOUPER EN PLUSIEURS FICHIERS
+	WIKI/DOCUMENTATION 
+- Quelles sont les informations obligatoires à mettre dans les commentaires ?
+	CE QUE FAIT LA LIGNE EN DESSOUS
+	"CARTOUCHE"DES FONCTIONS AVEC VARIABLES/TYPES/TAILLE/ETC...
+	AU DEBUT DE CHAQUE FICHIERS NUMERO DE VERSION DE NOM + CONTACT DU DEV 
+-Expliquer la problématique principale du développement à plusieurs. 
+	FUSIONNER PLUSIEURS MORCEAUX DE CODE EST DIFFICILE 
+	ATTENDRE DAUTRE MORCEAU DE CODE EST DIFFICILE
+- Qu'est-ce que GIT? E comment fonctionne-t-il? 
+	RESOUD LES DIFF2ERENCES ENTE DES FICHIERS DE MËME VERSIONS EDITES EN MEME TEMPS
+- A quoi sert la fonction merge ? 
+	A FUSIONNER PLUSIEURS FICHIER -VERSION EN //
+- Et commit ? 
+	ENVOYER ET METTRE A JOUR EN COMMENTANT
+- A quoi peut servir le wiki  ? 
+	UNE DOCUMENTATION UTILISATEUR POUR EXPLIQUER COMMENT UTILISER SON LOGICIEL PAR EXEMPLE(COMMANDE/ PARAMETRE/ LIB A INSTALLER/ ETC/...)
+	MAIS AUSSI EXPLIQUER SON CODE SES DECISIONS SES CHOIX TECHNIQUES. 
+- en utilisant Visual Studio code, quelle technique préconisez vouz pour generer des documentations automatiquement? 
+	 DOXYGENE
+- A quoi sert la veille technologique ?
+	 A ETRE AU COURANT DES NOUVELLES TECHNOLOGIES (CULTURE DE LINGE/AVANCE SUR CERTAINS SUJETS/...)
+- Donner une différence majeure entre python et C++? 
+	PYTHON EST INTERPRETE ET C++ EST COMPILE 
+-Que fait Tkinter ?
+	LIBRAIRIE INTERFACE GRAPHIQUE SUR PYHON 
+- A quoi sert le debuggage ? 
+	A RETROUVER LES ERREURS DANS LE CODE 
+	IL FAUT DES LOGS ET OU DES PRINTS A LINVITE DE COMMANDE 
+- Lecture de logs et recherche d'erreurs
+
+VISION ROBOT ET IA 
+
+- Donner une définition du deep learning ? 
+	LOGICIEL QUI AUTO APPREND (RESEAU DE NEURONE) 
+- Existe-t-il d'autres formes d'IA ? 
+	OUI 
+- En quoi le deeplearning pose problème aujourrd'hui ? 
+	IL EST NON PROUVABLE ( ON TROUVE PAS LE CODE QUIL GENERE) 
+- Pourquoi doit-on procéder à un apprentissage ? 
+	CAR AU DEPART IL NE SAIT RIEN - IL A BESOIN DE DIGERER UN GRAND NOMBRE DE DONNEES AVANT LES MODIFICATIONS DANS LE RESEAU SE STABILISENT
+- Quelles sont ses limites ? 
+	 LE SURAPPRENTISSAGE
+- En python comment créer une matrice 1024x1024 ? 
+	 a =np.array([1024,1024])
+-A quoi pourrait servir une telle matrice ? 
+	A TRAITER DES IMAGES PAR EXEMPLE
+- Qu'est ce qu'OpenCV? a quoi sert-elle ? 
+	FRAMEWORK DE RECONNAISSANCE DIMAGES OU VIDEO
+-Donner une fonction d'OpenCV souvent utile ? 
+	cv2.videoCapture()
+	cv2.handDetector()
+
+
+METIER INGENIEUR: 
+
+- Nommer plusieurs métiers d'ingénieurs: 
+- Quelle est la différence entre ingénieur support et ingénieur test? 
+	INGENIEUR MECANIQUE 
+	INGENIEUR ARCHITECTURE
+-Quelle est la différence entre ingénieur support et ingénieur test ? 
+	SUPPORT = APRES MISE EN VENTE ET TEST AVANT VENTE 
+- Nommer les 3 différents niveaux de support. 
+	1/SERVICE CLIENT 
+	2/CHERCHER LES LOGS ET PROUVER/ TROUVER DOU VIENT LERREUR 
+	3/ DEV QUI FONT LES MODIFS 
+- Qu'est ce qu'un ingénieur avant vente et quel est son rôle? 
+	EVITE QUE LES COMMERCIAUX FASSE DU CACA 	
+ 

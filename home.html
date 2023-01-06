@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="hooome.css" />
+    <title> WELCOME </title>
+</head>
+
+<body>
+    <div id="ww_2f27303572f6c" v='1.3' loc='id'
+        a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl870"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"rgba(255,255,255,1)","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+        Weather Data Source: <a href="https://sharpweather.com/weather_bordeaux/today/" id="ww_2f27303572f6c_u"
+            target="_blank">Bordeaux weather today</a></div>
+    <script async src="https://app1.weatherwidget.org/js/?id=ww_2f27303572f6c"></script>
+    <script async src="https://app1.weatherwidget.org/js/?id=ww_cd6979dfe0a0d"></script>
+
+    <div id="information"> <iframe src="https://www.sudouest.fr/lachainetv7/infos/la-matinale/" id="information">
+        </iframe>
+    </div>
+
+
+
+    <audio controls id="musique">
+
+        <source src="musique/AC_DC - Back In Black.mp3" type="audio/mpeg">
+        <!-- <source src="musique/AC_DC - Highway to Hell (from Live at River Plate).mp3" type="audio/mpeg" />
+                <source src="musique/AC_DC - Thunderstruck.mp3" type="audio/mpeg" />
+                <source src="musique/ACDC - TNT.mp3" type="audio/mpeg" />
+                <source src="musique/Audioslave - Be Yourself.mp3" type="audio/mpeg" />
+                <source src="musique/Damso - N. J Respect R.mp3" type="audio/mpeg">
+                <source src="musique/Damso - Γ. Mosaïque Solitaire.mp3" type="audio/mpeg">
+                <source src="musique/den-den-mushi-ringtone-ringtones-for-android.mp3" type="audio/mpeg">
+                <source src="musique/Diplo - Get It Right (Feat. Mø) (Official Video).mp3" type="audio/mpeg">
+                <source src="musique/Diplo - Set Me Free (featuring Liz).m4a" type="audio/m4a">
+                <source src="musique/DJ Snake - Frequency 75.mp3" type="audio/mpeg">
+                <source src="musique/Don Diablo - People Say ft. Paije  Official Music Video.mp3" type="audio/mpeg">
+                <source src="musique/Eminem - Berzerk (Official) (Explicit).mp3" type="audio/mpeg">
+                <source src="musique/Eminem - Not Afraid.mp3" type="audio/mpeg">
+                <source src="musique/Eminem - Rap God (Explicit).mp3" type="audio/mpeg">
+                <source src="musique/Eminem - Survival (Explicit).mp3" type="audio/mpeg">
+                <source src="musique/Lomepal - 1000°C (feat. Roméo Elvis) [Clip officiel].mp3" type="audio/mpeg">
+                <source src="musique/Lomepal - Trop beau (Clip officiel).mp3" type="audio/mpeg">
+                <source src="musique/Lomepal - Yeux disent (Clip officiel).mp3" type="audio/mpeg">
+                <source src="musique/MUSE - Algorithm.mp3" type="audio/mpeg">
+                <source src="musique/MUSE - Get Up and Fight.mp3" type="audio/mpeg">
+                <source src="musique/Muse - Uprising.mp3" type="audio/mpeg">
+                <source src="musique/Nirvana - Smells Like Teen Spirit.mp3" type="audio/mpeg">
+                <source src="musique/Numb (Official Video) - Linkin Park.mp3" type="audio/mpeg">
+                <source src="musique/Rammstein - Du Hast.mp3" type="audio/mpeg">
+                <source src="musique/Red Hot Chili Peppers - Californication.mp3" type="audio/mpeg">
+                <source src="musique/Red Hot Chili Peppers - Can't Stop.mp3" type="audio/mpeg">
+                <source src="musique/Red Hot Chili Peppers - Under The Bridge.mp3" type="audio/mpeg">
+                <source src="musique/Soundgarden - Black Hole Sun.mp3" type="audio/mpeg">
+                <source src="musique/Stone Sour - Rose Red Violent Blue (This Song Is Dumb & So Am I).mp3"
+                    type="audio/mpeg">
+                <source src="musique/Stone Sour - Through Glass.mp3" type="audio/mpeg">
+                <source src="musique/The Streets - Fit But You Know It.mp3" type="audio/mpeg">
+                <source src="musique/twenty one pilots - Chlorine.mp3" type="audio/mpeg">
+                <source src="musique/twenty one pilots_ Stressed Out [OFFICIAL VIDEO].mp3" type="audio/mpeg">
+                <source src="musique/twenty one pilots - Jumpsuit.mp3" type="audio/mpeg">
+                <source src="musique/twenty one pilots_ Heathens (from Suicide Squad_ The Album) [OFFICIAL VIDEO].mp3"
+                    type="audio/mpeg">
+                <source src="musique/twenty one pilots_ The Hype (Official Video).mp3" type="audio/mpeg">
+                <source src="musique/Vald - Désaccordé.mp3" type="audio/mpeg">
+                <source src="musique/twenty one pilots_ The Hype (Official Video).mp3" type="audio/mpeg">
+                <source src="musique/Vald - Eurotrap.mp3" type="audio/mpeg">
+                <source src="musique/VALD - POISSON.mp3" type="audio/mpeg">
+                <source src="musique/YUNGBLUD - Parents.mp3" type="audio/mpeg"> -->
+
+        <!-- skip audio-->
+        <span href="#musique" click onclick="skipAudio('musique', '90')" class="skip-btn">>></span>
+        <script>
+            function skipAudio(plyr, skip) {
+                var plyr = document.getElementById(plyr);
+                var currentTime = plyr.currentTime;
+                plyr.currentTime = skip;
+            }
+        </script>
+
+    </audio>
+    <div>
+        <div id="div_horloge"></div>
+
+        <script type="text/javascript">
+            window.onload = function () {
+                horloge('div_horloge');
+            };
+
+            function horloge(el) {
+                if (typeof el == "string") { el = document.getElementById(el); }
+                function actualiser() {
+                    var date = new Date();
+                    var str = date.getHours();
+                    str += ':' + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes();
+                    el.innerHTML = str;
+                }
+                actualiser();
+                setInterval(actualiser, 1000);
+            }
+        </script>
+        <div id="date">
+            <script>
+                date = new Date().toLocaleDateString();
+                document.write(date);
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
